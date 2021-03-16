@@ -6,8 +6,10 @@ import Copyright from "./Copyright";
 function Footer() {
     return (
         <div className='footer'>
-            <FooterLogo />
-            <FooterMenu />
+            <div className="footer-cont">
+              <FooterLogo />
+              <FooterMenu />
+            </div>
             <Copyright />
         </div>
     );

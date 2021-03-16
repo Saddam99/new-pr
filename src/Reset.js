@@ -1,8 +1,12 @@
 import React from 'react';
 
-function Reset() {
+function Reset(props) {
+    function reset() {
+        props.setCounter(0)
+
+    }
     return (
-        <div className="reset buttonform">
+        <div className="reset buttonform" onClick={reset}>
             Сбросить
         </div>
     );

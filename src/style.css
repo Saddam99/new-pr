@@ -1,7 +1,7 @@
 .add {
     margin: 0 auto;
     max-width: 770px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gilroy', sans-serif;
 }
 .header {
     display: flex;
@@ -24,7 +24,6 @@ ul {
     color: #F27C0F;
     font-size: 288px;
     text-align: center;
-    font-weight: 900;
 }
 .buttons {
     margin: auto;
@@ -70,6 +69,11 @@ ul {
     bottom: 30px;
 
 }
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .footer-logo {
     width: 100px;
 }
@@ -79,5 +83,4 @@ ul {
 }
 .copyright {
     width: 170px;
-    padding-left: 135px;
 }
